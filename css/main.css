@@ -27,7 +27,7 @@ ul {
   padding: 2rem;
   margin-bottom: 1em;
   background-color: var(--clr-primary-600);
-  border: 0;
+  border: 0px;
   border-color: var(--clr-neutral-100);
   border-radius: 1.5em;
   font-size: 2rem;
@@ -43,6 +43,11 @@ li {
 
 a {
   color: var(--clr-primary-600);
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 768px) {

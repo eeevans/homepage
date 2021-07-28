@@ -23,9 +23,7 @@ h1 {
 
 ul {
   list-style: none;
-  width: 70vw;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100%;
   padding: 2rem;
   margin-bottom: 1em;
   background-color: var(--clr-primary-600);
@@ -44,4 +42,12 @@ li {
 
 a {
   color: var(--clr-primary-600);
+}
+
+@media only screen and (min-width: 768px) {
+  ul {
+    width: 70vw;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }

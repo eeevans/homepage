@@ -30,6 +30,7 @@ ul {
   border: 0;
   border-color: var(--clr-neutral-100);
   border-radius: 1.5em;
+  font-size: 2rem;
 }
 
 li {
